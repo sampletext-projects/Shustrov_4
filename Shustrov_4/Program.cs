@@ -13,6 +13,7 @@ namespace Shustrov_4
                 + Math.Pow(
                     Math.PI / 3 / (4 / 21.0) + Math.Pow((1 + 5 * Math.Sqrt(5)) / 3.5, 1 / 3.0), 1 / 5.0);
             Console.WriteLine("Result: {0}", result);
+            Console.ReadKey();
         }
     }
 }
